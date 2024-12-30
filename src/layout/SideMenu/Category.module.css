@@ -1,0 +1,33 @@
+.Wrapper {
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+  align-items: flex-start;
+  height: 300px;
+  font-weight: bold;
+  color: white;
+}
+
+
+  .Catergory {
+    display: flex;
+    flex-direction: column; /* 세로 정렬 */
+    align-items: flex-start;    /* 중앙 정렬 */
+    gap: 10px;              /* 요소 간 간격 */
+  }
+  
+  .Sqaure {
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 160px;
+  }

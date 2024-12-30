@@ -1,0 +1,29 @@
+.Wrapper{
+    width: 250px;
+    justify-content: space-around;
+    display:flex;
+    align-items:center;
+}
+
+
+.round {
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Profile {
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
